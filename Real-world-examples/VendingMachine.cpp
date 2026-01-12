@@ -1,3 +1,61 @@
+
+/*
+===========================================================
+ VENDING MACHINE – LOW LEVEL DESIGN (STATE PATTERN)
+===========================================================
+
+OVERVIEW:
+This project implements a vending machine using the
+State Design Pattern.
+
+Two versions are included:
+1. Simple Vending Machine
+   - Single item
+   - Fixed price
+   - Focus on state transitions
+
+2. Multi-Item Vending Machine
+   - Multiple items with different prices & quantities
+   - Realistic extension of the same design
+
+-----------------------------------------------------------
+STATE DESIGN PATTERN:
+The State Pattern allows an object to change its behavior
+based on its internal state without using large if-else
+or switch statements.
+
+- Context: VendingMachine
+- State Interface: VendingState
+- Concrete States:
+  NO_COIN, HAS_COIN, DISPENSING, SOLD_OUT
+
+Each state:
+- Defines valid operations
+- Decides the next state
+
+-----------------------------------------------------------
+PROBLEM STATEMENT:
+Design a vending machine that:
+- Accepts coins
+- Allows item selection
+- Dispenses items
+- Handles insufficient balance
+- Detects sold-out condition
+- Restores service after refill
+
+-----------------------------------------------------------
+SOLUTION:
+- VendingMachine holds a reference to the current state
+- All actions are delegated to the current state object
+- State methods return the next state
+- Inventory and balance are updated during transitions
+
+This removes complex conditionals and keeps behavior
+clean, extensible, and state-driven.
+===========================================================
+*/
+
+
 #include <iostream>
 #include <string>
 #include <unordered_map>
@@ -450,60 +508,3 @@ int main() {
 
     return 0;
 }
-
-
-/*
-===========================================================
- VENDING MACHINE – LOW LEVEL DESIGN (STATE PATTERN)
-===========================================================
-
-OVERVIEW:
-This project implements a vending machine using the
-State Design Pattern.
-
-Two versions are included:
-1. Simple Vending Machine
-   - Single item
-   - Fixed price
-   - Focus on state transitions
-
-2. Multi-Item Vending Machine
-   - Multiple items with different prices & quantities
-   - Realistic extension of the same design
-
------------------------------------------------------------
-STATE DESIGN PATTERN:
-The State Pattern allows an object to change its behavior
-based on its internal state without using large if-else
-or switch statements.
-
-- Context: VendingMachine
-- State Interface: VendingState
-- Concrete States:
-  NO_COIN, HAS_COIN, DISPENSING, SOLD_OUT
-
-Each state:
-- Defines valid operations
-- Decides the next state
-
------------------------------------------------------------
-PROBLEM STATEMENT:
-Design a vending machine that:
-- Accepts coins
-- Allows item selection
-- Dispenses items
-- Handles insufficient balance
-- Detects sold-out condition
-- Restores service after refill
-
------------------------------------------------------------
-SOLUTION:
-- VendingMachine holds a reference to the current state
-- All actions are delegated to the current state object
-- State methods return the next state
-- Inventory and balance are updated during transitions
-
-This removes complex conditionals and keeps behavior
-clean, extensible, and state-driven.
-===========================================================
-*/
