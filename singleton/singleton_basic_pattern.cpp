@@ -36,6 +36,7 @@ int PrimitiveSingleton::instanceCount = 0;  // initialize counter
     - Creates the instance only when needed.
     - Prevents multiple objects by making constructor private.
 ************************************************************************************************/
+
 class LazySingleton {
 private:
     static LazySingleton* instance;  // Pointer storing the single instance
