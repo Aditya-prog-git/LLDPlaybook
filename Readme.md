@@ -1,4 +1,16 @@
-<p align="center"> <img src="https://capsule-render.vercel.app/api?type=rect&height=90&text=Low%20Level%20Design%20Practice&fontSize=30&fontColor=ffffff&animation=fadeIn&color=gradient" /> </p>
+<p align="center">
+  <img 
+    src="https://capsule-render.vercel.app/api
+    ?type=rect
+    &height=90
+    &text=Low%20Level%20Design%20Practice
+    &fontSize=30
+    &fontColor=E5E7EB
+    &animation=twinkling
+    &color=0f2027,203a43,2c5364"
+  />
+</p>
+
 
 <p align="center">
   <b>Design Patterns • Clean Architecture • Interview-Ready LLD in C++</b>
@@ -255,6 +267,7 @@ Computer Science Engineering
 Focused on Backend Development, Low Level Design & Scalable Systems
 
 > *“Design patterns are not about complexity — they are about controlling change.”*
+
 
 
 
