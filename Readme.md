@@ -1,10 +1,22 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,50:203a43,100:2c5364&height=90&section=header&text=Low%20Level%20Design%20Practice&fontSize=28&fontColor=ffffff&animation=twinkling" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,50:203a43,100:2c5364&height=120&section=header&text=Low%20Level%20Design%20Practice&fontSize=34&fontColor=ffffff&animation=twinkling" />
 </p>
 
 <p align="center">
   <b>Design Patterns • Clean Architecture • Interview-Ready LLD in C++</b>
 </p>
+
+new one's
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-C%2B%2B-0A66C2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Domain-Low%20Level%20Design-7B2CBF?style=for-the-badge" />
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Focus-Clean%20OOP%20%26%20Patterns-16A34A?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Target-Fresher%20%26%20Junior-22C55E?style=for-the-badge" />
+</p>
+
+new one's end
 
 <p align="center">
   <img src="https://img.shields.io/badge/Language-C%2B%2B-0A66C2?style=flat-square" />
@@ -39,7 +51,7 @@ Built with the intent to:
 
 ## 🧩 Design Patterns Covered
 
-| Pattern | Core Idea |
+| 🧠 Pattern | 💡 Core Idea |
 |-------|-----------|
 | **Strategy** | Encapsulate interchangeable behavior |
 | **Factory** | Centralize and abstract object creation |
@@ -257,6 +269,7 @@ Computer Science Engineering
 Focused on Backend Development, Low Level Design & Scalable Systems
 
 > *“Design patterns are not about complexity — they are about controlling change.”*
+
 
 
 
