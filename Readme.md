@@ -36,9 +36,10 @@ Built with the intent to:
 > Minimal. Intentional. Interview-ready.
 
 ---
+
+## 🧩 Design Patterns Covered
+
 <div align="center">
-  ## 🧩 Design Patterns Covered
-  
   | Pattern | Core Idea |
   |-------|-----------|
   | **Strategy** | Encapsulate interchangeable behavior |
@@ -258,6 +259,7 @@ Computer Science Engineering
 Focused on Backend Development, Low Level Design & Scalable Systems
 
 > *“Design patterns are not about complexity — they are about controlling change.”*
+
 
 
 
