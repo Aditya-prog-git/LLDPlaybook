@@ -135,6 +135,18 @@ Ideal for **event-driven architectures** where components should remain loosely 
 
 ---
 
+### 🔹 State Pattern
+**📂 Location:** `real_world_examples/`
+
+**Use Cases Implemented:**
+- ATM operation flow (Idle → CardInserted → Authenticated → Transaction → Exit)
+- Vending machine lifecycle (Idle → Selection → Payment → Dispense)
+
+**Why State?**  
+Used when an object’s **behavior changes based on its internal state**, allowing state-specific logic to be isolated and transitions to be handled cleanly.
+
+---
+
 ## 🏗️ Real-World LLD Implementations
 
 ### 1️⃣ Vending Machine
@@ -242,4 +254,5 @@ Computer Science Engineering
 Focused on Backend Development, Low Level Design & Scalable Systems
 
 > *“Design patterns are not about complexity — they are about controlling change.”*
+
 
