@@ -57,20 +57,6 @@ Built with the intent to:
 
 ---
 
-### 👋 What this repository is about
-
-A **curated collection of Low Level Design (LLD) implementations in C++**, focused on **real interview problems** and **core design patterns**.
-
-Built with the intent to:
-- Think in **patterns, not if-else**
-- Identify **change-prone areas**
-- Write **clean, extensible OOP code**
-- Explain designs clearly in interviews
-
-> Minimal. Intentional. Interview-ready.
-
----
-
 ## 🧩 Design Patterns Covered
 
 | Pattern | Core Idea |
@@ -291,6 +277,7 @@ Computer Science Engineering
 Focused on Backend Development, Low Level Design & Scalable Systems
 
 > *“Design patterns are not about complexity — they are about controlling change.”*
+
 
 
 
