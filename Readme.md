@@ -59,11 +59,9 @@ Built with the intent to:
 .
 ├── factory/
 │   ├── factory_basic_pattern.cpp
-│   └── factoryDesignPattern.pdf
 │
 ├── observer/
 │   ├── observer_basic_pattern.cpp
-│   └── real_world_example.pdf
 │
 ├── singleton/
 │   └── singleton_basic_pattern.cpp
@@ -71,9 +69,7 @@ Built with the intent to:
 ├── strategy/
 │   ├── strategy_basic_pattern.cpp
 │   ├── strategy_payment.cpp
-│   ├── strategy_sorting.cpp
-│   ├── strategy_payment.exe
-│   └── sorting.exe
+│   └── strategy_sorting.cpp
 │
 ├── real_world_examples/
 │   ├── ATM_Automatic_Teller_Machine.cpp
@@ -257,25 +253,3 @@ Computer Science Engineering
 Focused on Backend Development, Low Level Design & Scalable Systems
 
 > *“Design patterns are not about complexity — they are about controlling change.”*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
