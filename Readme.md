@@ -1,36 +1,39 @@
-# 🚀 Low Level Design Practice – Design Patterns in C++
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,50:203a43,100:2c5364&height=90&section=header&text=Low%20Level%20Design%20Practice&fontSize=28&fontColor=ffffff&animation=fadeIn" />
+</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Language-C%2B%2B-blue" />
-  <img src="https://img.shields.io/badge/Domain-Low%20Level%20Design-purple" />
-  <img src="https://img.shields.io/badge/Patterns-Strategy%20%7C%20Factory%20%7C%20Singleton%20%7C%20Observer-green" />
-  <img src="https://img.shields.io/badge/Target-Fresher%20%26%20Junior%20Engineers-success" />
+  <b>Design Patterns • Clean Architecture • Interview-Ready LLD in C++</b>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-C%2B%2B-0A66C2?style=flat-square" />
+  <img src="https://img.shields.io/badge/Domain-Low%20Level%20Design-7B2CBF?style=flat-square" />
+  <img src="https://img.shields.io/badge/Focus-Clean%20OOP%20%26%20Patterns-16A34A?style=flat-square" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Patterns-Strategy%20%7C%20Factory%20%7C%20Singleton%20%7C%20Observer%20%7C%20State-F59E0B?style=flat-square" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Target-Fresher%20%26%20Junior%20Engineers-22C55E?style=flat-square" />
+  <img src="https://img.shields.io/badge/Style-Interview%20Explainable-3B82F6?style=flat-square" />
 </p>
 
 ---
 
-## 🌍 Overview
+### 👋 What this repository is about
 
-This repository contains **Low Level Design (LLD)** implementations written in **C++**, focusing on **core object-oriented design patterns** commonly evaluated in **on-campus, fresher, and junior backend interviews**.
+A **curated collection of Low Level Design (LLD) implementations in C++**, focused on **real interview problems** and **core design patterns**.
 
-The emphasis is **not on frameworks**, but on:
+Built with the intent to:
+- Think in **patterns, not if-else**
+- Identify **change-prone areas**
+- Write **clean, extensible OOP code**
+- Explain designs clearly in interviews
 
-- ✅ Clean object-oriented design  
-- ✅ Pattern-driven problem solving  
-- ✅ Interview-explainable architecture  
-- ✅ Avoiding premature over-engineering  
-
-All implementations are **console-based**, intentionally minimal, and designed to clearly highlight **why a pattern is used**, not just *how* it is coded.
-
----
-
-## 🎯 Goals of This Repository
-
-- Build strong intuition for **when to apply a design pattern**
-- Learn to identify **change-prone areas** in a system
-- Practice **extensible and maintainable design**
-- Prepare for **LLD rounds and whiteboard interviews**
-- Create a reusable personal reference for system design fundamentals
+> Minimal. Intentional. Interview-ready.
 
 ---
 
@@ -254,5 +257,6 @@ Computer Science Engineering
 Focused on Backend Development, Low Level Design & Scalable Systems
 
 > *“Design patterns are not about complexity — they are about controlling change.”*
+
 
 
