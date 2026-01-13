@@ -13,18 +13,26 @@
     <defs>
       <linearGradient id="grad">
         <stop offset="0%" stop-color="#0f2027">
-          <animate attributeName="stop-color" values="#0f2027;#203a43;#2c5364;#0f2027" dur="6s" repeatCount="indefinite"/>
+          <animate attributeName="stop-color"
+                   values="#0f2027;#203a43;#2c5364;#0f2027"
+                   dur="6s"
+                   repeatCount="indefinite"/>
         </stop>
         <stop offset="100%" stop-color="#2c5364">
-          <animate attributeName="stop-color" values="#2c5364;#0f2027;#203a43;#2c5364" dur="6s" repeatCount="indefinite"/>
+          <animate attributeName="stop-color"
+                   values="#2c5364;#0f2027;#203a43;#2c5364"
+                   dur="6s"
+                   repeatCount="indefinite"/>
         </stop>
       </linearGradient>
     </defs>
-
-    <rect width="1200" height="90" fill="url(#grad)" rx="8"/>
-
-    <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle"
-          fill="white" font-size="30" font-family="Segoe UI, sans-serif">
+    <rect width="1200" height="90" fill="url(#grad)" rx="10"/>
+    <text x="50%" y="55%"
+          dominant-baseline="middle"
+          text-anchor="middle"
+          fill="white"
+          font-size="30"
+          font-family="Segoe UI, Arial, sans-serif">
       Low Level Design Practice
     </text>
   </svg>
@@ -286,6 +294,7 @@ Computer Science Engineering
 Focused on Backend Development, Low Level Design & Scalable Systems
 
 > *“Design patterns are not about complexity — they are about controlling change.”*
+
 
 
 
