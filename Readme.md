@@ -6,31 +6,19 @@
   <b>Design Patterns • Clean Architecture • Interview-Ready LLD in C++</b>
 </p>
 
-new one's
 <p align="center">
   <img src="https://img.shields.io/badge/Language-C%2B%2B-0A66C2?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Domain-Low%20Level%20Design-7B2CBF?style=for-the-badge" />
-</p>
-<p align="center">
   <img src="https://img.shields.io/badge/Focus-Clean%20OOP%20%26%20Patterns-16A34A?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Target-Fresher%20%26%20Junior-22C55E?style=for-the-badge" />
-</p>
-
-new one's end
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Language-C%2B%2B-0A66C2?style=flat-square" />
-  <img src="https://img.shields.io/badge/Domain-Low%20Level%20Design-7B2CBF?style=flat-square" />
-  <img src="https://img.shields.io/badge/Focus-Clean%20OOP%20%26%20Patterns-16A34A?style=flat-square" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Patterns-Strategy%20%7C%20Factory%20%7C%20Singleton%20%7C%20Observer%20%7C%20State-F59E0B?style=flat-square" />
+  <img src="https://img.shields.io/badge/Patterns-Strategy%20%7C%20Factory%20%7C%20Singleton%20%7C%20Observer%20%7C%20State-F59E0B?style=for-the-badge" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Target-Fresher%20%26%20Junior%20Engineers-22C55E?style=flat-square" />
-  <img src="https://img.shields.io/badge/Style-Interview%20Explainable-3B82F6?style=flat-square" />
+  <img src="https://img.shields.io/badge/Target-Fresher%20%26%20Junior%20Engineers-22C55E?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Style-Interview%20Explainable-3B82F6?style=for-the-badge" />
 </p>
 
 ---
@@ -269,6 +257,7 @@ Computer Science Engineering
 Focused on Backend Development, Low Level Design & Scalable Systems
 
 > *“Design patterns are not about complexity — they are about controlling change.”*
+
 
 
 
