@@ -42,6 +42,9 @@ All implementations are **console-based**, intentionally minimal, and designed t
 | **Factory** | Centralize and abstract object creation |
 | **Singleton** | Maintain a single shared instance |
 | **Observer** | Enable event-driven communication |
+| **State** | Alter object behavior based on internal state |
+
+> ℹ️ The **State Pattern** is applied implicitly in real-world systems such as **ATM** and **Vending Machine** to manage state-dependent behavior transitions.
 
 > 💡 These four patterns alone cover a **majority of fresher-level LLD interview scenarios**.
 
@@ -73,8 +76,170 @@ All implementations are **console-based**, intentionally minimal, and designed t
 │   ├── ATM_Automatic_Teller_Machine.cpp
 │   ├── ParkingLot.cpp
 │   ├── VendingMachine.cpp
-│   ├── PubSubSystem.cpp        // (upcoming)
-│   └── RideBookingSystem.cpp   // (upcoming)
+│   ├── PubSubSystem.cpp     
+│   └── RideBookingSystem.cpp   
 │
 ├── .gitignore
 └── README.md
+```
+📌 **Each folder is self-contained and can be explored independently.**
+
+---
+
+## 🧪 Pattern-Wise Implementations
+
+### 🔹 Strategy Pattern
+**📂 Location:** `strategy/`
+
+**Use Cases Implemented:**
+- Payment methods (UPI / Card)
+- Sorting algorithms (runtime selection)
+
+**Why Strategy?**  
+Used when **business logic varies**, but the overall workflow remains constant.
+
+---
+
+### 🔹 Factory Pattern
+**📂 Location:** `factory/`
+
+**Use Cases Implemented:**
+- Centralized object creation
+- Input-based object selection
+
+**Why Factory?**  
+Prevents object creation logic from spreading across the codebase.
+
+---
+
+### 🔹 Singleton Pattern
+**📂 Location:** `singleton/`
+
+**Use Cases Implemented:**
+- Shared resource management
+
+**Why Singleton?**  
+Used when a **single source of truth** is required (configuration, cache, DB manager).
+
+---
+
+### 🔹 Observer Pattern
+**📂 Location:** `observer/`
+
+**Use Cases Implemented:**
+- Event notification system
+- Publisher–subscriber relationship
+
+**Why Observer?**  
+Ideal for **event-driven architectures** where components should remain loosely coupled.
+
+---
+
+## 🏗️ Real-World LLD Implementations
+
+### 1️⃣ Vending Machine
+**📄 File:** `real_world_examples/VendingMachine.cpp`  
+**Patterns Used:** Factory, Strategy, Singleton, State
+
+**Key Design Decisions:**
+- Product creation via Factory
+- Pricing logic via Strategy
+- Inventory managed via Singleton
+- State-driven flow for machine operations
+
+---
+
+### 2️⃣ Parking Lot System
+**📄 File:** `real_world_examples/ParkingLot.cpp`  
+**Patterns Used:** Factory, Strategy, Singleton
+
+**Key Design Decisions:**
+- Vehicle-based slot allocation
+- Flexible pricing models
+- Centralized parking state management
+
+---
+
+### 3️⃣ ATM System
+**📄 File:** `real_world_examples/ATM_Automatic_Teller_Machine.cpp`  
+**Patterns Used:** Strategy, Singleton, State
+
+**Key Design Decisions:**
+- Transaction rules encapsulated as strategies
+- State-based handling of ATM operations
+- Account data managed centrally
+
+---
+
+### 4️⃣ Pub/Sub System
+**📄 File:** `real_world_examples/PubSubSystem.cpp`  
+**Patterns Used:** Observer, Singleton
+
+**Key Design Decisions:**
+- Decoupled publishers and subscribers
+- Centralized broker to manage subscriptions
+- Event-based message delivery
+
+---
+
+### 5️⃣ Ride Booking System (Uber-lite)
+**📄 File:** `real_world_examples/RideBookingSystem.cpp`  
+**Patterns Used:** Strategy, Factory, Singleton, Observer
+
+**Key Design Decisions:**
+- Fare calculation via Strategy
+- Payment method selection via Factory
+- Centralized ride lifecycle management
+- Driver notification using Observer pattern
+
+---
+
+## 🧠 Interview Readiness
+
+This repository prepares you to confidently:
+- Explain **why a pattern was chosen**
+- Identify **extension points**
+- Discuss **design trade-offs**
+- Walk through an **LLD solution step-by-step**
+
+**Sample interview explanation:**
+> *“I used the Strategy pattern here because pricing rules change frequently, and this allows new rules to be added without modifying the core business flow.”*
+
+---
+
+## ▶️ How to Run
+
+1. Navigate to any folder  
+2. Compile the `.cpp` file:
+   ```bash
+   g++ filename.cpp -o output
+   ```
+3. Run the executable:
+   ```bash
+   ./output
+   ```
+No external dependencies required. 
+
+## 🔮 Future Enhancements
+
+The following enhancements can be added to further improve design depth and realism:
+
+- Add **Adapter Pattern** examples for third-party integrations
+- Improve **CLI interaction flows** for better usability
+- Add **basic unit tests** for critical components
+- Include **class diagrams** to visualize object relationships
+- Extend real-world systems with additional business rules
+
+> ℹ️ **Note:**  
+> The **State Pattern** has already been applied implicitly in systems like **ATM** and **Vending Machine** to handle state-based behavior transitions.
+
+---
+
+## 👤 Author
+
+**Aditya**  
+Computer Science Engineering  
+Focused on Backend Development, Low Level Design & Scalable Systems
+
+> *“Design patterns are not about complexity — they are about controlling change.”*
+
