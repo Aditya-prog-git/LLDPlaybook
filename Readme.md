@@ -1,3 +1,4 @@
+<!-- ===== HEADER BANNER ===== -->
 <p align="center">
   <img 
     src="https://capsule-render.vercel.app/api
@@ -267,6 +268,7 @@ Computer Science Engineering
 Focused on Backend Development, Low Level Design & Scalable Systems
 
 > *“Design patterns are not about complexity — they are about controlling change.”*
+
 
 
 
