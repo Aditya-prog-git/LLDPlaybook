@@ -98,20 +98,21 @@ private:
 public:
     VendingMachine(int count, int price);
 
+    //SETTERS
     void insertCoin(int c) { currentState = currentState->insertCoin(this, c); }
     void selectItem() { currentState = currentState->selectItem(this); }
     void dispense() { currentState = currentState->dispense(this); }
     void returnCoin() { currentState = currentState->returnCoin(this); }
     void refill(int q) { currentState = currentState->refill(this, q); }
-
-    int getItemCount() { return itemCount; }
+    
     void decrementItemCount() { itemCount--; }
     void incrementItemCount(int q) { itemCount += q; }
-
-    int getCoins() { return insertedCoins; }
     void setCoins(int c) { insertedCoins = c; }
     void addCoins(int c) { insertedCoins += c; }
-
+    
+    //GETTERS
+    int getCoins() { return insertedCoins; }
+    int getItemCount() { return itemCount; }
     int getPrice() { return itemPrice; }
 
     VendingState* getNoCoinState() { return noCoinState; }
