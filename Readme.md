@@ -246,6 +246,31 @@ The following enhancements can be added to further improve design depth and real
 
 ---
 
+## 🔗 References & Credits
+
+This repository is built for **learning and interview practice**, inspired by **publicly available Low Level Design resources**.
+
+### Key References
+
+- **Awesome Low Level Design (GitHub)**  
+  https://github.com/ashishps1/awesome-low-level-design
+
+- **LLD Practice Repository by Aditya Tandon**  
+  https://github.com/adityatandon15/LLD/tree/main
+
+- **CodeWithAryan – Low Level System Design**  
+  https://codewitharyan.com/system-design/low-level-design
+
+### Notes
+
+- All problems and designs in this repository are **implemented independently**.
+- The referenced materials were used **only for conceptual understanding and problem inspiration**.
+- Code structure, design decisions, and explanations are **original and rewritten** with an interview-first mindset.
+
+> ℹ️ This repository is intended purely for **educational purposes** and **long-term interview preparation**.
+
+---
+
 ## 👤 Author
 
 **Aditya**  
