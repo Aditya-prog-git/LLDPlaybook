@@ -1,3 +1,44 @@
+
+
+/*
+PROBLEM:
+Design a simple Pub/Sub system:
+- Topics exist (Sports, News, etc.)
+- Subscribers subscribe/unsubscribe to topics
+- Publishers publish messages to a topic
+- All subscribers of that topic are notified
+
+PATTERN:
+Observer Pattern
+- Topic = Subject
+- Subscriber = Observer
+- Broker = Topic registry (decouples publisher from topics)
+
+WHY:
+- One-to-many notification
+- Loose coupling between publisher and subscribers
+- Easy to add new subscribers
+
+TRADE-OFFS:
++ Simple, flexible, decoupled
+- In-memory only
+- No persistence or delivery guarantee
+- Not thread-safe
+
+USE WHEN:
+- Event/notification systems
+- UI listeners
+- Logging/monitoring
+- Simple Pub/Sub logic
+
+AVOID WHEN:
+- Need message durability
+- Distributed systems (Kafka/RabbitMQ)
+- High scale or reliability needed
+*/
+
+
+
 #include<iostream>
 #include<unordered_map>
 #include<unordered_set>
